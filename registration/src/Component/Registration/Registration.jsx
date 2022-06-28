@@ -74,6 +74,7 @@ const Registration = () => {
               placeholder='Enter Name' 
               onChange={handleChange}
               value={formData.name}
+              required
             />
             <br />
             <input 
@@ -82,6 +83,7 @@ const Registration = () => {
               placeholder='Enter Email' 
               onChange={handleChange}
               value={formData.email}
+              required
             />
             <br />
             <input 
