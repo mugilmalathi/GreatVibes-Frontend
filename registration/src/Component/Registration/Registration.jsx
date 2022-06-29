@@ -17,7 +17,6 @@ const Registration = () => {
   
     const handleSubmitter = (e)=>{
 
-      e.preventDefault()
       if(formData.name == ""){
         return seterrorMessage("Please Enter the Name")
       }
