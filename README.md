@@ -1,7 +1,9 @@
 Registration 
 
 -Given the validation while the input value is empty.
+
 -Its throw the Error message.
+
 -Success alert with the name.
 
 Snapshots:
